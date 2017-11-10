@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class PlusOneToTheInteger {
 		public static void main(String[] args){
 			
-			int nums[] = {'1','0'};
+			int nums[] = {'1','9'};
 			
 			int[] temp = addOne(nums);
 		//	System.out.println(temp[1]);
