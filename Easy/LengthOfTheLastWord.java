@@ -1,3 +1,4 @@
+package Easy;
 
 public class LengthOfTheLastWord {
 		public static void main(String[] args){

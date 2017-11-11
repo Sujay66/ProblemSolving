@@ -1,3 +1,4 @@
+package Easy;
 
 public class AddBinaryNumbers {
 	public static void main(String[] args){

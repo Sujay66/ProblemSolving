@@ -1,3 +1,4 @@
+package Easy;
 
 public class RemoveDuplicatesFromList {
 		public static void main(String[] args){
