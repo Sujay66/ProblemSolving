@@ -2,7 +2,7 @@ package Easy;
 
 public class HouseRobber {
 	public static void main(String[] args){
-		int[] nums = {5,1,1,5,10};
+		int[] nums = {5,1,1,5};
 		
 		if(nums==null||nums.length==0)
 	        System.out.println(0);
