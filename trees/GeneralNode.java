@@ -5,14 +5,12 @@ public class GeneralNode {
 	      GeneralNode left;
 	      GeneralNode right;
 	      public GeneralNode() {	}
-	      GeneralNode(int x) { val = x; }
+	      GeneralNode(int x) { this.val = x; }
 	      
 	      public void insertLeft(int value){
-	    	  this.left = new GeneralNode();
-	    	  this.left.val = value;
+	    	  this.left = new GeneralNode(value);
 	      }
 	      public void insertRight(int value){
-	    	  this.right = new GeneralNode();
-	    	  this.right.val = value;
+	    	  this.right = new GeneralNode(value);
 	      }
 }
