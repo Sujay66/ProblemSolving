@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.nio.channels.ShutdownChannelGroupException;
 import java.util.Arrays;
 import java.util.Random;
 
