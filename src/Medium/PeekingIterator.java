@@ -8,12 +8,7 @@ public class PeekingIterator{
 	public static void main(String[] args){
 		List<Integer> myList = new ArrayList<Integer>();
 		Iterator<Integer> myIterator;
-		
-		
-		
-	/*	for(int i=1;i<4;i++){
-			myList.add(i);
-	}*/
+
 		myIterator = myList.iterator();
 		Peeking temp = new Peeking(myIterator);
 		
