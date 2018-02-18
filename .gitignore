@@ -1,0 +1,4 @@
+# exclude everything going to the output directory
+
+out/*
+.idea/*
