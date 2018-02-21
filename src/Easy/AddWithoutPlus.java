@@ -8,9 +8,9 @@ public class AddWithoutPlus {
 		
 		while(b!=0){
 			carry = a & b;
-			System.out.println("before"+a);
+	//		System.out.println("before"+a);
 			a = a ^ b;
-			System.out.println("after"+a);
+	//		System.out.println("after"+a);
 			b = carry << 1;
 			System.out.println(b);
 		}

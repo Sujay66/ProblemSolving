@@ -18,7 +18,7 @@ public class InsertionSort {
                     nums[hole] = nums[hole-1];
                     hole = hole - 1;
              }
-             nums[hole] = value;
+            nums[hole] = value;
         }
         return nums;
     }

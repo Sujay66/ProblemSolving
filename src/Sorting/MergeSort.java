@@ -1,9 +1,13 @@
 package Sorting;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class MergeSort {
     public static void main(String[] args){
-        int[] nums = {100,95,98,1,10,35};
-        mergeSort(nums);
+        Integer[] nums = {100,95,98,1,10,35};
+        Arrays.sort(nums, Collections.reverseOrder());
+      //  mergeSort(nums);
         for(int j:nums){
             System.out.println(j);
         }
