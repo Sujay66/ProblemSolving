@@ -1,12 +1,10 @@
 package HackerRank;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class PermutationDup {
 
-    private List<char []> myList = new ArrayList<char []>();
+    private HashSet<char []> myList = new HashSet<>();
 
     public void permutation(String s) {
         char[] original = s.toCharArray();
@@ -17,7 +15,7 @@ public class PermutationDup {
          permute(original, clone, mark, 0, s.length(),myList);
     }
 
-    private void permute(char[] original, char[] clone, boolean[] mark, int length, int n,List<char[]> temp) {
+    private void permute(char[] original, char[] clone, boolean[] mark, int length, int n,Set<char[]> temp) {
         if (length == n) {
             System.out.println(clone);
             temp.add(clone);
