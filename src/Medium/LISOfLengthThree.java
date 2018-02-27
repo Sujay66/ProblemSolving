@@ -2,7 +2,7 @@ package Medium;
 
 public class LISOfLengthThree {
     public static void main(String[] args){
-        int[] nums = {2,5,3,4,5};
+        int[] nums = {1,2,1,3};
         System.out.print(longestIncreasingSequence(nums));
     }
 

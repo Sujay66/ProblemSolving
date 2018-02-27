@@ -2,7 +2,7 @@ package Medium;
 
 public class PeakElement {
     public static void main(String[] args){
-        int[] nums = {1,2,3,1};
+        int[] nums = {1,4,2,3,5};
         int start = 0;
         int end = nums.length-1;
         System.out.print(peakSearch(nums,start,end));

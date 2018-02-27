@@ -12,16 +12,18 @@ public class WordBreak {
 			
 			dict.add("leet");
 			dict.add("code");
-			
+
+		//	System.out.println(s.substring(0,1));
 			System.out.println(wordBreak(s,dict));
 			
 		}
 	 static boolean wordBreak(String s, List<String> wordDict) {
-	        Set<String> myDict = new HashSet<String>(wordDict);
+	        List<String> myDict = new ArrayList<>(wordDict);
 	        boolean[] isWord = new boolean[s.length()+1];
 	        isWord[0] = true;
 	        for(int i=1;i<=s.length();i++){
 	            for(int j=0;j<i;j++){
+	            	System.out.println(s.substring(j,i));
 	                if(isWord[j] && myDict.contains(s.substring(j,i))){
 	                    isWord[i] = true;
 	                    break;

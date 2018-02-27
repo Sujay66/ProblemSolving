@@ -16,6 +16,7 @@ public class SingleNumber {
                     mySet.remove(i);
                 }
             }
+
             Iterator<Integer> it = mySet.iterator();
             return it.next();
         }
