@@ -7,6 +7,6 @@ public class IsSameTree {
 		 p.insertLeft(20);
 		 p.insertRight(30);
 		 p.insertLeft(40);
-		System.out.println(p.val);
+		System.out.println(p.getVal());
 	}
 }

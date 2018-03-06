@@ -14,10 +14,10 @@ public class LevelOrderTraversalReverse {
 	
 	node1.insertLeft(20);
 	node1.insertRight(30);
-	node1.left.insertLeft(40);
-	node1.left.insertRight(50);
-	node1.right.insertLeft(60);
-	node1.right.insertRight(70);
+	node1.getLeft().insertLeft(40);
+	node1.getLeft().insertRight(50);
+	node1.getRight().insertLeft(60);
+	node1.getRight().insertRight(70);
 		
 	levelordertraversal(node1);
 	}
@@ -29,13 +29,13 @@ public class LevelOrderTraversalReverse {
 		
 		while(!q.isEmpty()){
 			root = q.poll();
-			System.out.println(root.val);
+			System.out.println(root.getVal());
 			
-			if(root.left!=null){
-				q.add(root.left);
+			if(root.getLeft()!=null){
+				q.add(root.getLeft());
 			}
-			if(root.right!=null){
-				q.add(root.right);
+			if(root.getRight()!=null){
+				q.add(root.getRight());
 			}			
 		}
 		
