@@ -4,6 +4,8 @@ public class SearchA2dMatrix {
     public static void main(String [] args){
         int[][] nums = {{1,4,7,11,15},{2,5,8,12,19},{3,6,9,16,22},{10,13,14,17,24},{18,21,23,26,30}};
    //     int m = 0,n = 0;
+
+        System.out.println("Rows:"+nums.length+"Columns:"+nums[0].length);
         int i = 0;
         int j = nums[0].length-1;
         int target = 5;

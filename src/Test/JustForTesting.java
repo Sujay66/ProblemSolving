@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class JustForTesting {
     public static void main(String[] args) {
 
-        final char[] buf = new char[32];
+     /*   final char[] buf = new char[32];
         for (int i = 31; i >= 0; i--) {
             buf[31 - i] = ((1 << i) & 1) == 0 ? '0' : '1';
         }
@@ -25,7 +25,8 @@ public class JustForTesting {
             count++;
         }
 
-        System.out.print(sum);
+        System.out.print(sum);*/
+
 
 
    /*     int[] nums = {4,3,2,7,8,2,3,1};

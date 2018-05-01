@@ -103,4 +103,12 @@ public class MinHeap {
             System.out.println(i);
         }
     }
+
+    public static void main(String[] args){
+        MinHeap heap = new MinHeap();
+        for(int i=1;i<6;i++){
+            heap.add(i);
+        }
+        heap.printHeap();
+    }
 }

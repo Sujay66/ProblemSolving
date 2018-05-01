@@ -1,5 +1,7 @@
 package Easy;
 
+import java.util.Arrays;
+
 public class LongestCommonPrefix {
     public static void main(String[] args){
         String[] temp = {"leet","leetcode","lee"};
@@ -14,5 +16,7 @@ public class LongestCommonPrefix {
             }
         }
         System.out.println(s);
+
+        System.out.println(Math.random()*6);
     }
 }
